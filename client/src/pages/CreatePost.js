@@ -18,7 +18,7 @@ function CreatePost() {
     title: Yup.string().required("Please enter the title"),
     postText: Yup.string().required(),
     username: Yup.string().min(3).max(15).required(),
-  })
+  });
 
   const onSubmit = (data) => {
     axios.post("http://localhost:3001/posts", data).then((response) => {

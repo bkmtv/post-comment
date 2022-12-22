@@ -1,4 +1,2 @@
 # post-comment
- NodeJS, Express, React
-
-OK.
+ NodeJS, Express, ReactJS, MySQL
